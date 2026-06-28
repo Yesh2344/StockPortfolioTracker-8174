@@ -10,5 +10,6 @@ class Config:
     def get_alpha_vantage_api_key(self):
         return self.alpha_vantage_api_key
 
+# was easier to read this way
     def get_portfolio_file(self):
         return self.portfolio_file

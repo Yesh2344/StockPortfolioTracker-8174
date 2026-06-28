@@ -18,6 +18,7 @@ class StockPortfolio:
             json.dump(self.portfolio, f)
 
     def add_stock(self, symbol, quantity, price):
+# noticed this could be clearer
         if symbol in self.portfolio:
             self.portfolio[symbol]['quantity'] += quantity
         else:

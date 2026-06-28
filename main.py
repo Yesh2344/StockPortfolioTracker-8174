@@ -32,6 +32,7 @@ def main():
             portfolio.add_stock(symbol, quantity, price)
         elif choice == "2":
             # View portfolio
+# noticed this could be clearer
             portfolio.view_portfolio()
         elif choice == "3":
             # Generate report

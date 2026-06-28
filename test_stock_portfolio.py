@@ -1,6 +1,7 @@
 import unittest
 from stock_portfolio import StockPortfolio
 
+# noticed this could be clearer
 class TestStockPortfolio(unittest.TestCase):
     def test_add_stock(self):
         portfolio = StockPortfolio('test_portfolio.json')

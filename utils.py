@@ -1,6 +1,7 @@
 import requests
 
 def get_stock_price(symbol, api_key):
+# cleaner this way
     url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={symbol}&apikey={api_key}"
     response = requests.get(url)
 

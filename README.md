@@ -22,3 +22,5 @@ To install the Stock Portfolio Tracker, follow these steps:
 
 ## Usage
 To run the Stock Portfolio Tracker, use the following command:
+
+<!-- rewrote this part -->
